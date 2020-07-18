@@ -28,7 +28,7 @@ public class Main {
                 case 1:
                     System.out.println("Select a matching strategy: ALL, ANY, NONE");
                     String strategy = input.nextLine();
-                    System.out.println("Enter a name or email to search all suitable people.");
+                    System.out.println("Search: ");
                     String searchTemp = input.nextLine();
                     try{
                         SearchType type = SearchType.valueOf(strategy.toUpperCase());
