@@ -4,6 +4,14 @@ searchengpack/searchalgo/NoneSearch.java
  searchengpack.searchalgo.NoneSearch
 searchengpack/searchalgo/AllSearch.java
  searchengpack.searchalgo.AllSearch
+searchengpack/searchalgo/SearchAlgorithm.java
+ searchengpack.searchalgo.SearchAlgorithm
+searchengpack/searchalgo/SearchType.java
+ searchengpack.searchalgo.SearchType
+searchengpack/SearchResult.java
+ searchengpack.SearchResult
+searchengpack/searchalgo/AnySearch.java
+ searchengpack.searchalgo.AnySearch
 searchengpack/FileSearchEngine.java
  searchengpack.FileSearchEngine
  searchengpack.FileSearchEngine$1
@@ -11,11 +19,3 @@ mainpack/Main.java
  mainpack.Main
 searchengpack/SearchEngine.java
  searchengpack.SearchEngine
-searchengpack/searchalgo/AnySearch.java
- searchengpack.searchalgo.AnySearch
-searchengpack/SearchResult.java
- searchengpack.SearchResult
-searchengpack/searchalgo/SearchType.java
- searchengpack.searchalgo.SearchType
-searchengpack/searchalgo/SearchAlgorithm.java
- searchengpack.searchalgo.SearchAlgorithm
