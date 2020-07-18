@@ -7,8 +7,8 @@ searchengpack/searchalgo/AllSearch.java
 searchengpack/FileSearchEngine.java
  searchengpack.FileSearchEngine
  searchengpack.FileSearchEngine$1
-searchengpack/searchalgo/SearchAlgorithm.java
- searchengpack.searchalgo.SearchAlgorithm
+mainpack/Main.java
+ mainpack.Main
 searchengpack/SearchEngine.java
  searchengpack.SearchEngine
 searchengpack/searchalgo/AnySearch.java
@@ -17,5 +17,5 @@ searchengpack/SearchResult.java
  searchengpack.SearchResult
 searchengpack/searchalgo/SearchType.java
  searchengpack.searchalgo.SearchType
-mainpack/Main.java
- mainpack.Main
+searchengpack/searchalgo/SearchAlgorithm.java
+ searchengpack.searchalgo.SearchAlgorithm
