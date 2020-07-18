@@ -26,6 +26,7 @@ public class FileSearchEngine extends SearchEngine {
             case ANY:
                 algo = new AnySearch(dataList, indexSet);
                 break;
+
         }
 
         result = new SearchResult(algo.search(query));

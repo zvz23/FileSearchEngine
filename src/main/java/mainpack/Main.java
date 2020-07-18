@@ -30,6 +30,11 @@ public class Main {
                     String strategy = input.nextLine();
                     System.out.println("Enter a name or email to search all suitable people.");
                     String searchTemp = input.nextLine();
+                    try{
+                        SearchType type = SearchType.valueOf(strategy.toUpperCase());
+                    }catch (IllegalArgumentException e){
+                        throw new IllegalArgumentException("Error: Invalid search strategy");
+                    }
                     searchEngine.search(searchTemp, SearchType.valueOf(strategy.toUpperCase()));
                     searchEngine.getResult().displayResult();
                     searchEngine.clearResults();
