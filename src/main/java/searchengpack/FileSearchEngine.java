@@ -60,11 +60,13 @@ public class FileSearchEngine extends SearchEngine {
                 index++;
             }
 
-        }catch (FileNotFoundException e){
+        }catch (FileNotFoundException | NullPointerException e){
             throw new IllegalArgumentException("Error: File not found.");
         }
         finally {
-            scan.close();
+            if(scan != null){
+                scan.close();
+            }
         }
         System.out.println("Initialize Complete");
     }

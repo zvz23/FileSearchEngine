@@ -57,7 +57,7 @@ public class Main {
         System.out.println("=== Menu ===");
         int option = -1;
         do{
-            System.out.println("1. Find a person\n2. Print all people\n0. Exit");
+            System.out.println("1. Search data\n2. Print all data\n0. Exit");
             option = scan.nextInt();
             scan.nextLine();
             if(option != 1 && option != 2 && option != 0){
