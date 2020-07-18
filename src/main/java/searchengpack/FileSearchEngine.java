@@ -32,7 +32,7 @@ public class FileSearchEngine extends SearchEngine {
         result = new SearchResult(algo.search(query));
 
     }
-
+    @Override
     public SearchResult getResult(){
         return result;
     }
@@ -40,7 +40,6 @@ public class FileSearchEngine extends SearchEngine {
         dataList.stream().forEach(i -> System.out.println(i));
     }
 
-    public List<String> getDataList(){return dataList;};
 
     private void initMap(){
         int index = 0;

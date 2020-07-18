@@ -15,7 +15,7 @@ public abstract class SearchEngine {
 
 
     public abstract void search(String query, SearchType algorithm);
-
+    public abstract SearchResult getResult();
     public void clearResults(){
         result.clear();
     }
